@@ -12,7 +12,9 @@ blackOutline = LineStyle(1,black) #pixels, color
 
 redRectangle = RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
 blueCircle = CircleAsset(50,blackOutline,blue) #radius, outline, film)
+greenEllipse = EllipseAsset(100,50,blackOutline,green) #horizontal radius, vertical_radius, outline, fill
 
 Sprite(redRectangle)
 Sprite(blueCircle,(50,50)) #(right,down)
+Sprite(greenEllipse,(200,400)) #(right,down)
 App().run()
