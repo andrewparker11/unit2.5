@@ -11,6 +11,8 @@ black = Color(0x000000,1)
 blackOutline = LineStyle(1,black) #pixels, color
 
 redRectangle = RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
+blueCircle = CircleAsset(50,blackOutline,blue) #radius, outline, film)
 
 Sprite(redRectangle)
+Sprite(blueCircle)
 App().run()
