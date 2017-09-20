@@ -13,7 +13,7 @@ blackOutline = LineStyle(1,black) #pixels, color
 redRectangle = RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
 blueCircle = CircleAsset(50,blackOutline,blue) #radius, outline, film)
 greenEllipse = EllipseAsset(100,50,blackOutline,green) #horizontal radius, vertical_radius, outline, fill
-blackline = LineAsset(50,160,blackOutline) #x_endpoint, y_endpoint, linestyle
+blackLine = LineAsset(50,160,blackOutline) #x_endpoint, y_endpoint, linestyle
 redTriangle = PolygonAsset([(0,0), (120,180), (60,300)],blackOutline,red) #list of endpoints
 
 Sprite(redRectangle)
