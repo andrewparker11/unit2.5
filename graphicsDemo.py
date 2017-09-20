@@ -14,5 +14,5 @@ redRectangle = RectangleAsset(200,100,blackOutline,red) #width, height, outline,
 blueCircle = CircleAsset(50,blackOutline,blue) #radius, outline, film)
 
 Sprite(redRectangle)
-Sprite(blueCircle,(50,50))
+Sprite(blueCircle,(50,50)) #(right,down)
 App().run()
