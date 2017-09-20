@@ -10,6 +10,7 @@ blue = Color(0x0000FF,1)
 black = Color(0x000000,1)
 blackOutline = LineStyle(1,black) #pixels, color
 
+redRectangle = RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
 
 
 App().run()
