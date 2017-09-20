@@ -12,5 +12,5 @@ blackOutline = LineStyle(1,black) #pixels, color
 
 redRectangle = RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
 
-
+Sprite(redRectangle)
 App().run()
