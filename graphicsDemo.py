@@ -4,6 +4,6 @@
 
 from ggame import *
 
-Color
+Color(0xFF0000,1)
 
 App().run()
