@@ -13,7 +13,7 @@ blackOutline = LineStyle(1,black) #pixels, color
 redRectangle = RectangleAsset(300,50,blackOutline,red) #width, height, outline, fill
 blackRectangle = RectangleAsset(300,50,blackOutline,black)
 yellowRectangle = RectangleAsset(300,50,blackOutline,yellow)
-text = TextAsset('Flag of Germany (not Belgium)',fill=black,style='bold 20pt Times')
+text = TextAsset('Flag of Germany',fill=black,style='bold 20pt Times')
 
 
 Sprite(redRectangle,(300,150)) #(right,down))
