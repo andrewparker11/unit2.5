@@ -18,7 +18,7 @@ text = TextAsset('Mi Casa',fill=green,style='bold 40pt Times')
 
 Sprite(redRectangle,(300,200)) #(right,down))
 Sprite(redTriangle,(300,200))
-Sprite(blueCircle,(400,150))
+Sprite(blueCircle,(400,160))
 Sprite(text,(100, 100))
 App().run()
 
