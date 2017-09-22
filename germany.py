@@ -1,6 +1,6 @@
 #Sam Smedinghoff
-#9/20/17
-#house.py - Makes a house
+#9/22/17
+#Germany.py - Makes the flag of germany (not belgium)
 
 from ggame import *
 
