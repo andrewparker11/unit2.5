@@ -11,7 +11,8 @@ yellow = Color(0xFFFF00,1)
 
 blackOutline = LineStyle(1,black) #pixels, color
 redRectangle = RectangleAsset(200,200,blackOutline,red) #width, height, outline, fill
-redRectangle = RectangleAsset(200,200,blackOutline,red) #width, height, outline, fill
+blackRectangle = RectangleAsset(200,200,blackOutline,black)
+yellowRectangle = RectangleAsset(200,200,blackOutline,yellow)
 text = TextAsset('Flag of Germany',fill=black,style='bold 40pt Times')
 
 
