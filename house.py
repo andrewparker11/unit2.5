@@ -11,3 +11,5 @@ redRectangle = RectangleAsset(200,200,blackOutline,red) #width, height, outline,
 
 Sprite(redRectangle,(300,200)) #(right,down))
 App().run()
+
+
