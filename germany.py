@@ -10,16 +10,16 @@ yellow = Color(0xFFFF00,1)
 
 
 blackOutline = LineStyle(1,black) #pixels, color
-redRectangle = RectangleAsset(200,200,blackOutline,red) #width, height, outline, fill
-blackRectangle = RectangleAsset(200,200,blackOutline,black)
-yellowRectangle = RectangleAsset(200,200,blackOutline,yellow)
-text = TextAsset('Flag of Germany',fill=black,style='bold 40pt Times')
+redRectangle = RectangleAsset(200,50,blackOutline,red) #width, height, outline, fill
+blackRectangle = RectangleAsset(200,50,blackOutline,black)
+yellowRectangle = RectangleAsset(200,50,blackOutline,yellow)
+text = TextAsset('Flag of Germany',fill=black,style='bold 20pt Times')
 
 
-Sprite(redRectangle,(300,200)) #(right,down))
-Sprite(yellowRectangle,(300,200))
-Sprite(blackRectangle,(300,200))
-Sprite(text,(100, 100))
+Sprite(redRectangle,(300,100)) #(right,down))
+Sprite(yellowRectangle,(300,150))
+Sprite(blackRectangle,(300,50))
+Sprite(text,(400, 25))
 App().run()
 
 
