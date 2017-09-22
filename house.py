@@ -14,7 +14,7 @@ text = TextAsset('Smeds',fill=green,style='bold 40pt Times')
 
 Sprite(redRectangle,(300,200)) #(right,down))
 Sprite(redTriangle,(300,200))
-Sprite(tex,(200, 100))
+Sprite(text,(200, 100))
 App().run()
 
 
