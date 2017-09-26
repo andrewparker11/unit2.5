@@ -14,7 +14,7 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black) #pixels, color
 bRectangle = RectangleAsset(1016,528,blackOutline,bcolor)
-text = TextAsset(name,fill=black,style='bold 20pt Times')
+text = TextAsset(name,fill=black,style='bold 100pt Times')
 
 Sprite(bRectangle,(0,0))
 Sprite(text,(400, 25))
