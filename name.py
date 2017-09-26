@@ -13,10 +13,10 @@ black = Color(0x000000,1)
 
 
 blackOutline = LineStyle(1,black) #pixels, color
-bRectangle = RectangleAsset(300,300,blackOutline,bcolor)
+bRectangle = RectangleAsset(1000,1500,blackOutline,bcolor)
 text = TextAsset(name,fill=black,style='bold 20pt Times')
 
-Sprite(bRectangle,(300,100))
+Sprite(bRectangle,(0,0))
 Sprite(text,(400, 25))
 App().run()
 
