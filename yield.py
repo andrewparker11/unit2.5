@@ -5,7 +5,7 @@
 from ggame import *
 
 red = Color(0xFF0000,1)
-white = Color(0x000000,1)
+white = Color(0xFFFFFF,1)
 black = Color(0x000000,1)
 blackOutline = LineStyle(1,black) #pixels, color
 
