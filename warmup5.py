@@ -9,7 +9,7 @@ blue = Color(0x0000FF,1)
 black = Color(0x000000,1)
 blackOutline = LineStyle(1,black) #pixels, color
 
-yellowDiamond = PolygonAsset([(0,0), (120,180), (60,300),(180,120)],blackOutline,yellow) #list of endpoints
+yellowDiamond = PolygonAsset([(100,0), (10,180), (60,300),(180,180)],blackOutline,yellow) #list of endpoints
 text = TextAsset('Andrew Parker',fill=blue,style='bold 20pt Times')
 
 
