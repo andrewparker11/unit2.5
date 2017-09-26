@@ -13,7 +13,7 @@ black = Color(0x000000,1)
 
 
 blackOutline = LineStyle(1,black) #pixels, color
-bRectangle = RectangleAsset(1000,1500,blackOutline,bcolor)
+bRectangle = RectangleAsset(1016,,blackOutline,bcolor)
 text = TextAsset(name,fill=black,style='bold 20pt Times')
 
 Sprite(bRectangle,(0,0))
