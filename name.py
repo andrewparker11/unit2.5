@@ -2,8 +2,8 @@
 #9/22/17
 #name.py - Gives you a "cool" name banner
 
-name = input('What is your name')
-ccolor = (input('Enter an RGB code' ))
+name = input('What is your name ')
+ccolor = (input('Enter an RGB code ' ))
 
 
 from ggame import *
@@ -17,6 +17,6 @@ bRectangle = RectangleAsset(1016,528,blackOutline,bcolor)
 text = TextAsset(name,fill=black,style='bold 100pt Times')
 
 Sprite(bRectangle,(0,0))
-Sprite(text,(400, 25))
+Sprite(text,(200, 200))
 App().run()
 
