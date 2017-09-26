@@ -17,7 +17,7 @@ text = TextAsset('YIELD',fill=red,style='bold 40pt Times')
 
 Sprite(whiteTriangle)
 Sprite(blackLine)
-Sprite(redTriangle)
+Sprite(redTriangle,(200,400))
 Sprite(text,(300,200))
 App().run()
 
